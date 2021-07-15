@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="297dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="48dp"
+        android:text="Выберите необходимые наименования"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxThermo"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:text="Термопаста"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFix"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:text="Крепления"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxThermo" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBox"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:text="Системный блок"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxFix" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPO"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="Установка ПО"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOS"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:text="Установка ОС"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxPO" />
+
+    <CheckBox
+        android:id="@+id/checkBoxcompile"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:text="Сборка ПК"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxOS" />
+
+    <CheckBox
+        android:id="@+id/checkBoxConfigure"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:text="Конфигурация ПК"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxcompile" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Выберите необходимые услуги"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxBox" />
+
+    <Button
+        android:id="@+id/AIbtnSave"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Сохранить"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxConfigure" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
