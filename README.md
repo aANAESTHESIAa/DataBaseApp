@@ -1,2 +1,2 @@
-# DataBaseApp
- Android database application
+# DatabaseApp
+ Android database application.
