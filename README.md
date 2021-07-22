@@ -1,5 +1,5 @@
 # DatabaseApp (training project) May 2021.
- Android application for the follownig database scheme containing various types of relataions:<br>
+ Android application for the follownig database scheme containing various types of relations:<br>
 ![Иллюстрация к проекту](https://github.com/aANAESTHESIAa/DatabaseApp/raw/main/dbscheme.png)<br>
 Stack: Java, Sqlite 3, SQL.<br>
 The app allows to update/delete/insert rows in all tables using its user interface.<br>
